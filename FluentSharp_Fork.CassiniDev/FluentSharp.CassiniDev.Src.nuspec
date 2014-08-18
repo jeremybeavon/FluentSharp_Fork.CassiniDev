@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CassiniDev.Src</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Source code dependency for CassiniDev</description>
+        <dependencies>
+            <dependency id="FluentSharp.CoreLib" version="5.5.172" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="**\*.cs" target="content\FluentSharp.CassiniDev" exclude="Properties\AssemblyInfo.cs;CassiniDev.Lib.Net35\Misc\ServiceInstaller.cs" />
+    </files>
+</package>
