@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>CassiniDev.Src</id>
-        <version>1.0.0</version>
-        <authors>Jeremy Beavon</authors>
+        <id>FluentSharp.CassiniDev.Src</id>
+        <version>5.5.172</version>
+        <authors>Jeremy Beavon (NuGet), O2 Platform (everything else)</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Source code dependency for CassiniDev</description>
         <dependencies>
